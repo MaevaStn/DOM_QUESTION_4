@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Money</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h1>Monnaie à rendre</h1>
+            </div>
+            <div class="col-sm-6">
+                <div class="input-group mb-3">
+                    <input type="text" id="montant" class="form-control"
+                        placeholder="Saisissez le montant du ticket à payer." aria-label="Recipient's username"
+                        aria-describedby="btn">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="input-group mb-3">
+                    <input type="text" id="somme" class="form-control"
+                        placeholder="Saisissez la somme que le client a donné." aria-label="Recipient's username"
+                        aria-describedby="btnSomme">
+                </div>
+            </div>
+            <div class="col-12 text-center mb-3">
+                <button type="button" id="btn" class="btn btn-outline-secondary">Rendre la monnaie</button>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class=" col-md-4 col-sm-12 text-center">
+                <img src="./assets/images/467b235906df43b8af406d50646c3085.jpeg" alt="">
+                <div id="billet10" class=" valeur-alignee"></div>
+            </div>
+            <div class=" col-md-4 col-sm-12 text-center">
+                <img src="./assets/images/38de9d52df434b6dbab0cf7b5823af70.jpeg" alt="">
+                <div id="billet5"></div>
+
+            </div>
+            <div class="col-md-4 col-sm-12 text-center">
+                <img src="./assets/images/s-l500.jpeg" alt="" style="height:160px">
+                <div id="billet1"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+    <script src="https://kit.fontawesome.com/8a6c7e7128.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
